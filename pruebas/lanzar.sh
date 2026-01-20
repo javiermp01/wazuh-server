@@ -6,9 +6,9 @@ set -e
 # curl -sSL https://get.docker.com/ | sh
 
 # Clona el repositorio oficial de Wazuh Docker específico de la versión 4.13.1
-cd /opt
-sudo git clone https://github.com/wazuh/wazuh-docker.git -b v4.13.1
-cd wazuh-docker/single-node
+#cd /opt
+#sudo git clone https://github.com/wazuh/wazuh-docker.git -b v4.13.1
+#cd wazuh-docker/single-node
 
 # Asegura el valor para el indexer (requerido)
 sudo sysctl -w vm.max_map_count=262144
